@@ -1,0 +1,19 @@
+
+import React from 'react';
+
+export const Logo: React.FC<{ className?: string }> = ({ className }) => (
+  <svg className={className} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="24" cy="24" r="24" fill="url(#paint0_linear_logo)"/>
+    <path d="M24 33C28.9706 33 33 28.9706 33 24C33 19.0294 28.9706 15 24 15C19.0294 15 15 19.0294 15 24C15 28.9706 19.0294 33 24 33Z" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M24 15L21.9393 17.0607" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M33 24L30.9393 21.9393" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M24 33L26.0607 30.9393" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M15 24L17.0607 26.0607" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+    <defs>
+      <linearGradient id="paint0_linear_logo" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#22D3EE"/>
+        <stop offset="1" stopColor="#F472B6"/>
+      </linearGradient>
+    </defs>
+  </svg>
+);

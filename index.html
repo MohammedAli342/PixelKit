@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelKit - Free Image & PDF Tools</title>
+  
+  <meta name="description" content="Your one-stop solution for free online image and PDF editing. Convert, compress, and more with our fast and easy-to-use tools.">
+  <meta name="keywords" content="image tools, pdf tools, free online editor, image converter, image compressor, pdf to jpg, photo editor, online tools, free tools, no registration, webp converter, png to jpg, jpg to png, pdf to image, reduce image size, batch image converter, secure file processing, client-side tools, browser tools, privacy focused image tools, free pdf converter, online image optimization">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            'brand-cyan': '#22D3EE',
+            'brand-magenta': '#F472B6',
+            'brand-dark': '#0F172A',
+          },
+           animation: {
+            shimmer: 'shimmer 2s linear infinite',
+            fadeIn: 'fadeIn 0.5s ease-in-out forwards',
+          },
+          keyframes: {
+            shimmer: {
+              'from': { transform: 'translateX(-100%)' },
+              'to': { transform: 'translateX(100%)' },
+            },
+            fadeIn: {
+              '0%': { opacity: 0, transform: 'translateY(10px)' },
+              '100%': { opacity: 1, transform: 'translateY(0)' },
+            },
+          }
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0"
+  }
+}
+</script>
+  <script src="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.min.js"></script>
+  <script>
+    if (typeof pdfjsLib !== 'undefined') {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js`;
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+</head>
+<body class="bg-slate-900 text-slate-200">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

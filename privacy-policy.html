@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | PixelKit</title>
+  
+  <meta name="description" content="Read our privacy policy to understand how we handle your data when you use our free online tools.">
+  <meta name="keywords" content="pixelkit privacy policy, data privacy, file deletion policy, user security, online tools privacy">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            'brand-cyan': '#22D3EE',
+            'brand-magenta': '#F472B6',
+            'brand-dark': '#0F172A',
+          },
+           typography: (theme) => ({
+            invert: {
+              css: {
+                '--tw-prose-a': theme('colors.brand-cyan'),
+                 '--tw-prose-invert-a': theme('colors.brand-cyan'),
+                 'a:hover': {
+                    color: theme('colors.brand-magenta'),
+                 },
+              },
+            },
+          }),
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-900 text-slate-200">
+  <div id="app" class="flex flex-col min-h-screen">
+    <header class="relative z-50">
+      <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="/" class="flex items-center gap-3 text-2xl font-bold text-white">
+          <img src="/logo.svg" alt="PixelKit Logo" class="h-8 w-8" />
+          <span>PixelKit</span>
+        </a>
+        <div class="flex items-center space-x-4 md:space-x-6">
+          <div class="hidden md:flex items-center space-x-6">
+            <a href="/faq.html" class="text-slate-300 hover:text-white transition-colors" data-t="header.faq">FAQ</a>
+            <a href="/contact.html" class="text-slate-300 hover:text-white transition-colors" data-t="header.contact">Contact</a>
+          </div>
+          <div id="language-selector-container"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex-grow">
+       <div class="py-16 text-center">
+        <div class="container mx-auto px-4 relative z-10">
+          <div class="absolute top-0 left-4 md:left-0 z-20">
+             <a href="/" class="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
+                <div class="p-2 bg-white/5 rounded-full group-hover:bg-white/10 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <span class="hidden md:inline font-medium" data-t="common.back">Back</span>
+            </a>
+          </div>
+          <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4" style="text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);" data-t="privacy.hero.title">Privacy Policy</h1>
+          <p class="text-lg text-slate-300 max-w-2xl mx-auto" data-t="privacy.hero.subtitle">Your privacy is important to us. Here's how we protect it.</p>
+        </div>
+      </div>
+      <div class="py-16">
+        <div class="container mx-auto px-4 max-w-3xl prose prose-invert">
+          <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-2xl shadow-xl">
+            <p class="text-sm text-slate-400"><em data-t="privacy.lastUpdated" data-t-options='{ "date": "10/27/2023" }'>Last Updated: 10/27/2023</em></p>
+
+            <h2 data-t="privacy.s1.title">1. Introduction</h2>
+            <p data-t="privacy.s1.p1">Welcome to PixelKit. We are committed to protecting your privacy. This Privacy Policy explains how we handle and protect your data when you use our website and services.</p>
+
+            <h2 data-t="privacy.s2.title">2. Data We Do Not Collect</h2>
+            <p data-t="privacy.s2.p1">We do not require user registration. We do not collect any personal information such as your name, email address, or contact details.</p>
+
+            <h2 data-t="privacy.s3.title">3. File Handling and Security</h2>
+            <p data-t="privacy.s3.p1">We are committed to the privacy of your files. Here's our approach:</p>
+            <ul>
+                <li><strong data-t="privacy.s3.l1.title">Client-Side Processing:</strong> <span data-t="privacy.s3.l1.p1">All tools on PixelKit operate directly in your web browser. Your files are never uploaded to our servers or any third-party service.</span></li>
+                <li><strong data-t="privacy.s3.l2.title">No File Storage:</strong> <span data-t="privacy.s3.l2.p1">Since your files are not uploaded, we do not store them. All processing happens on your own device.</span></li>
+                <li><strong data-t="privacy.s3.l3.title">Complete Confidentiality:</strong> <span data-t="privacy.s3.l3.p1">We do not access, view, or share your files. The entire process is handled locally on your computer.</span></li>
+            </ul>
+
+            <h2 data-t="privacy.s4.title">4. Cookies and Analytics</h2>
+            <p data-t="privacy.s4.p1">We use minimal cookies to ensure the functionality of our website. We may also use anonymous analytics services like Google Analytics to understand website traffic and improve our services. This data is aggregated and does not identify you personally.</p>
+
+            <h2 data-t="privacy.s5.title">5. Changes to This Policy</h2>
+            <p data-t="privacy.s5.p1">We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page. You are advised to review this page periodically for any changes.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="border-t border-white/10 mt-20">
+      <div class="container mx-auto px-4 py-8 text-center text-slate-400">
+        <p class="mb-4" data-t="footer.copyright">© 2025 PixelKit. All Rights Reserved.</p>
+        <div class="flex justify-center space-x-6">
+          <a href="/privacy-policy.html" class="hover:text-brand-cyan transition-colors" data-t="footer.privacy">Privacy Policy</a>
+          <a href="/terms-of-use.html" class="hover:text-brand-cyan transition-colors" data-t="footer.terms">Terms of Use</a>
+          <a href="/contact.html" class="hover:text-brand-cyan transition-colors" data-t="footer.contact">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

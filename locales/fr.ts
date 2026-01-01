@@ -1,0 +1,236 @@
+
+
+export default {
+  "header": {
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "footer": {
+    "copyright": "© 2025 PixelKit. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "contact": "Contactez-nous"
+  },
+  "toolCard": {
+    "useTool": "Utiliser l'outil"
+  },
+  "fileUpload": {
+    "prompt": {
+      "image": "Glissez-déposez une ou plusieurs image(s) ici",
+      "compress": "Glissez-déposez une ou plusieurs image(s) à compresser",
+      "pdf": "Glissez-déposez un fichier PDF ici"
+    },
+    "browse": "ou cliquez pour parcourir",
+    "invalidType": "Type de fichier invalide. Accepté : {{types}}.",
+    "tryAnother": "Veuillez essayer un autre fichier",
+    "maxFilesError": "Vous pouvez télécharger un maximum de {{max}} fichiers."
+  },
+  "common": {
+    "originalImage": "Image originale",
+    "removeImage": "Supprimer l'image",
+    "clearImage": "Recommencer",
+    "downloadImage": "Télécharger l'image",
+    "download": "Télécharger",
+    "converting": "Conversion en cours...",
+    "pleaseWait": "Veuillez patienter.",
+    "zipping": "Compression des fichiers..."
+  },
+  "home": {
+    "seo": {
+      "title": "Outils Gratuits pour Images & PDF en Ligne | PixelKit",
+      "description": "Votre solution unique pour l'édition gratuite d'images et de PDF en ligne. Utilisez notre convertisseur d'images, compresseur d'images en ligne, et convertisseur PDF en JPG gratuit. Outils rapides et faciles, sans inscription.",
+      "keywords": "outils image, outils pdf, éditeur en ligne gratuit, convertisseur d'images, compresseur d'images en ligne, convertir pdf en jpg gratuit, convertir heic en png, éditeur de photos, outils en ligne, outils gratuits, sans inscription, réduire taille image"
+    },
+    "hero": {
+      "title": "Outils Gratuits pour Images & PDF",
+      "subtitle": "Tous vos outils essentiels pour la conversion d'images, la compression et la conversion de PDF en JPG. Disponibles en ligne gratuitement."
+    }
+  },
+  "tools": {
+    "converter": {
+      "name": "Convertisseur d'Images",
+      "description": "Changez instantanément de format d'image comme JPG, PNG, WEBP, et HEIC avec notre convertisseur de photos en ligne gratuit."
+    },
+    "compressor": {
+      "name": "Compresseur d'Images",
+      "description": "Réduisez la taille des fichiers image pour des sites web plus rapides. Réduisez la taille de l'image et compressez les fichiers JPG ou PNG en conservant la qualité."
+    },
+    "pdfToJpg": {
+      "name": "Convertisseur PDF en JPG",
+      "description": "Convertissez chaque page d'un PDF en images JPG ou PNG de haute qualité avec notre convertisseur PDF en JPG gratuit."
+    }
+  },
+  "converter": {
+    "seo": {
+      "title": "Convertisseur d'Images Gratuit en Ligne - Convertir JPG, PNG, HEIC, WEBP",
+      "description": "Convertissez facilement des images en ligne avec notre convertisseur d'images gratuit. Prend en charge les conversions comme HEIC en PNG, JPG en PNG, et WEBP en JPG. Résultats de haute qualité, sans inscription.",
+      "keywords": "convertisseur d'images, convertir heic en png, convertisseur d'images gratuit, jpg en png, png en jpg, convertisseur webp, convertisseur heic, convertisseur de photos en ligne, changer format image"
+    },
+    "hero": {
+      "title": "Convertisseur d'Images Gratuit en Ligne",
+      "subtitle": "Changez les formats d'image en quelques secondes. Convertissez HEIC en PNG, JPG en WEBP, et plus encore avec notre outil en ligne rapide et sécurisé."
+    },
+    "intro": {
+      "title": "Comment Changer les Formats d'Image en Ligne",
+      "description": "Notre convertisseur d'images gratuit en ligne est l'outil parfait pour changer les formats d'image sans effort. Que vous ayez besoin de convertir HEIC en PNG pour la compatibilité, de changer un WEBP moderne en un JPG standard, ou de convertir un PNG en JPG, notre outil gère tout. Ce convertisseur de photos fournit des résultats de haute qualité instantanément, sans aucune installation de logiciel. Il suffit de télécharger votre fichier et de sélectionner le format souhaité pour commencer."
+    },
+    "convertTo": "Convertir en",
+    "convertButton": "Convertir Image(s)",
+    "downloadAll": "Tout télécharger (.zip)",
+    "alt": {
+      "original": "Image originale téléchargée pour la conversion de format.",
+      "converted": "Image après avoir été convertie dans un nouveau format."
+    },
+    "sectionTitle": {
+      "original": "Images Originales",
+      "converted": "Images Converties"
+    },
+    "errors": {
+      "canvasInit": "Impossible d'initialiser le canevas de l'image. L'image est peut-être corrompue ou dans un format non pris en charge.",
+      "imageLoad": "Échec du chargement de l'image pour la conversion. Elle est peut-être corrompue ou dans un format non pris en charge.",
+      "unexpected": "Une erreur inattendue s'est produite lors de la conversion."
+    }
+  },
+  "compressor": {
+    "seo": {
+      "title": "Compresseur d'Images en Ligne - Réduire la Taille JPG & PNG Gratuitement",
+      "description": "Notre compresseur d'images en ligne vous aide à réduire la taille de l'image gratuitement. Compressez les fichiers JPG et PNG pour les rendre plus petits sans perte de qualité. Parfait pour l'optimisation web.",
+      "keywords": "compresseur d'images en ligne, réduire la taille de l'image, compresser jpg, compresser png, optimiser les images, réducteur de taille de photo, rendre l'image plus petite, optimisation d'image gratuite, compresseur d'images"
+    },
+    "hero": {
+      "title": "Compresseur d'Images en Ligne",
+      "subtitle": "Réduisez la taille des fichiers image et optimisez vos photos. Notre outil peut compresser des images JPG et PNG gratuitement sans perte de qualité visuelle."
+    },
+    "intro": {
+        "title": "Comment Réduire la Taille d'une Image",
+        "description": "Utilisez notre puissant compresseur d'images en ligne pour réduire la taille de fichier de vos images JPG et PNG. En optimisant vos photos, vous pouvez rendre votre site web plus rapide et économiser de l'espace de stockage. Cet outil est parfait pour les développeurs web, les photographes et toute personne ayant besoin de rendre une image plus petite sans sacrifier la qualité visuelle. Il suffit de télécharger votre image, d'ajuster la qualité et de télécharger le fichier compressé."
+    },
+    "quality": "Qualité de Compression",
+    "totalReduction": "Taille totale réduite de {{percentage}}%",
+    "downloadAll": "Tout télécharger (.zip)",
+    "alt": {
+        "original": "Image originale de grande taille avant la compression.",
+        "compressed": "Image après la compression, avec une taille de fichier réduite."
+    },
+    "sectionTitle": {
+        "original": "Photo Originale",
+        "compressed": "Images Compressées"
+    },
+    "errors": {
+        "canvasInit": "Impossible d'initialiser le canevas de l'image. L'image est peut-être corrompue ou dans un format non pris en charge.",
+        "blobCreation": "Échec de la création du blob d'image compressée. Le format n'est peut-être pas pris en charge pour la compression.",
+        "imageLoad": "Échec du chargement de l'image pour la compression. Elle est peut-être corrompue ou dans un format non pris en charge.",
+        "unexpected": "Une erreur inattendue s'est produite lors de la compression."
+    }
+  },
+  "pdfToJpg": {
+    "seo": {
+      "title": "Convertisseur PDF en JPG Gratuit - Haute Qualité en Ligne",
+      "description": "Utilisez notre convertisseur PDF en JPG gratuit pour transformer des fichiers PDF en images de haute qualité en ligne. Vous pouvez également convertir des PDF en PNG. C'est le meilleur outil pour extraire des pages d'un PDF.",
+      "keywords": "convertir pdf en jpg gratuit, pdf en jpg, convertir pdf en jpg, pdf en image, pdf en png, extraire des images d'un pdf, convertisseur pdf en ligne, enregistrer pdf en jpg"
+    },
+    "hero": {
+      "title": "Convertisseur PDF en JPG Gratuit",
+      "subtitle": "Convertissez facilement vos documents PDF en images JPG de haute qualité. Notre outil prend également en charge la conversion de PDF en PNG, page par page."
+    },
+    "intro": {
+        "title": "Comment Convertir un PDF en JPG",
+        "description": "Avec notre convertisseur PDF en JPG gratuit, vous pouvez facilement extraire toutes les pages d'un PDF et les enregistrer en tant qu'images JPG de haute qualité. Cet outil en ligne est parfait lorsque vous avez besoin de convertir un PDF en image pour le partage, les présentations ou une utilisation web. Nous prenons également en charge la conversion de PDF en PNG. Aucune inscription ni logiciel requis - il suffit de télécharger votre PDF et de télécharger vos images."
+    },
+    "page": "Page",
+    "downloadAll": "Tout télécharger (.zip)",
+    "zipping": "Compression en cours",
+    "useAnother": "Utiliser un autre PDF",
+    "alt": {
+        "page": "Image extraite de la page {{pageNumber}} du PDF téléchargé"
+    },
+    "errors": {
+        "process": "Échec du traitement du PDF. Veuillez vous assurer qu'il s'agit d'un fichier valide et non crypté.",
+        "zip": "Échec de la création du fichier ZIP. Veuillez essayer de télécharger les images individuellement."
+    }
+  },
+  "faq": {
+    "seo": {
+      "title": "FAQ | PixelKit",
+      "description": "Trouvez des réponses aux questions fréquemment posées sur nos outils gratuits d'édition d'images et de PDF en ligne.",
+      "keywords": "faq pixelkit, questions frequently posées, sécurité des fichiers, aide aux outils gratuits, support des outils en ligne"
+    },
+    "hero": {
+      "title": "Questions fréquemment posées",
+      "subtitle": "Vous avez des questions ? Nous avons des réponses. Si vous ne trouvez pas ce que vous cherchez, n'hésitez pas à nous contacter."
+    },
+    "q1": "L'utilisation de PixelKit est-elle gratuite ?",
+    "a1": "Oui, tous les outils disponibles sur PixelKit sont entièrement gratuits. Il n'y a pas de frais cachés ni d'abonnement requis.",
+    "q2": "Dois-je créer un compte ?",
+    "a2": "Non, vous n'avez pas besoin de vous inscrire ou de créer un compte pour utiliser nos outils. Nous croyons en un accès rapide et facile pour tous.",
+    "q3": "Mes fichiers sont-ils en sécurité ?",
+    "a3": "Votre vie privée et votre sécurité sont nos priorités absolues. Tout le traitement des fichiers se fait directement dans votre navigateur Web (côté client). Cela signifie que vos fichiers ne sont jamais téléchargés sur nos serveurs, offrant le plus haut niveau de confidentialité.",
+    "q4": "Quels formats de fichiers sont pris en charge ?",
+    "a4": "Nos outils prennent en charge un large éventail de formats populaires. Le convertisseur d'images prend en charge JPG, PNG, WEBP, GIF et BMP. Le convertisseur PDF en image accepte n'importe quel fichier PDF standard.",
+    "q5": "Y a-t-il une limite de taille de fichier ou d'utilisation ?",
+    "a5": "Pour des performances optimales, nous recommandons d'utiliser des fichiers de moins de 25 Mo. Bien que nous offrions une utilisation illimitée, nous vous demandons d'utiliser nos services de manière équitable. Pour une utilisation très intensive ou automatisée, veuillez vous référer à nos conditions d'utilisation."
+  },
+  "privacy": {
+    "seo": {
+        "title": "Politique de confidentialité | PixelKit",
+        "description": "Lisez notre politique de confidentialité pour comprendre comment nous traitons vos données lorsque vous utilisez nos outils gratuits en ligne.",
+        "keywords": "politique de confidentialité pixelkit, confidentialité des données, politique de suppression de fichiers, sécurité des utilisateurs, confidentialité des outils en ligne"
+    },
+    "hero": {
+        "title": "Politique de confidentialité",
+        "subtitle": "Votre vie privée est importante pour nous. Voici comment nous la protégeons."
+    },
+    "lastUpdated": "Dernière mise à jour : {{date}}",
+    "s1": { "title": "1. Introduction", "p1": "Bienvenue sur PixelKit. Nous nous engageons à protéger votre vie privée. Cette politique de confidentialité explique comment nous traitons et protégeons vos données lorsque vous utilisez notre site Web et nos services." },
+    "s2": { "title": "2. Données que nous ne collectons pas", "p1": "Nous n'exigeons pas l'inscription de l'utilisateur. Nous ne collectons aucune information personnelle telle que votre nom, votre adresse e-mail ou vos coordonnées." },
+    "s3": { "title": "3. Traitement et sécurité des fichiers", "p1": "Nous nous engageons à préserver la confidentialité de vos fichiers. Voici notre approche :", "l1": {"title": "Traitement côté client", "p1": "Tous les outils de PixelKit fonctionnent directement dans votre navigateur Web. Vos fichiers ne sont jamais téléchargés sur nos serveurs ou sur un service tiers."}, "l2": {"title": "Pas de stockage de fichiers", "p1": "Comme vos fichiers ne sont pas téléchargés, nous ne les stockons pas. Tout le traitement se fait sur votre propre appareil."}, "l3": {"title": "Confidentialité totale", "p1": "Nous n'accédons pas, ne visualisons pas et ne partageons pas vos fichiers. L'ensemble du processus est géré localement sur votre ordinateur."}},
+    "s4": { "title": "4. Cookies et analyses", "p1": "Nous utilisons un minimum de cookies pour assurer le bon fonctionnement de notre site Web. Nous pouvons également utiliser des services d'analyse anonymes comme Google Analytics pour comprendre le trafic du site Web et améliorer nos services. Ces données sont agrégées et ne vous identifient pas personnellement." },
+    "s5": { "title": "5. Modifications de cette politique", "p1": "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre. Nous vous informerons de tout changement en publiant la nouvelle politique sur cette page. Il vous est conseillé de consulter régulièrement cette page pour tout changement." },
+    "s6": { "title": "6. Contactez-nous", "p1": "Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter via notre <a href=\"/#/contact\">page de contact</a>." }
+  },
+  "terms": {
+    "seo": {
+        "title": "Conditions d'utilisation | PixelKit",
+        "description": "Lisez nos conditions d'utilisation avant d'utiliser les services fournis par PixelKit.",
+        "keywords": "conditions d'utilisation de pixelkit, termes et conditions, contrat de service, conduite de l'utilisateur"
+    },
+    "hero": {
+        "title": "Conditions d'utilisation",
+        "subtitle": "En utilisant nos services, vous acceptez les conditions suivantes."
+    },
+    "lastUpdated": "Dernière mise à jour : {{date}}",
+    "s1": { "title": "1. Acceptation des conditions", "p1": "En accédant et en utilisant PixelKit, vous acceptez d'être lié par les termes et dispositions de cet accord. Si vous n'acceptez pas de respecter ces conditions, veuillez ne pas utiliser nos services." },
+    "s2": { "title": "2. Description du service", "p1": "PixelKit fournit une collection d'outils en ligne gratuits pour la manipulation d'images et de PDF. Ces services sont fournis \"tels quels\" et sont destinés à votre usage personnel et non commercial, sauf indication contraire." },
+    "s3": { "title": "3. Conduite de l'utilisateur", "p1": "Vous acceptez de ne pas utiliser le service à des fins illégales ou non autorisées. Vous ne devez pas, dans l'utilisation du service, enfreindre les lois de votre juridiction. Vous êtes seul responsable du contenu que vous traitez via nos services. Vous acceptez de ne pas traiter de fichiers qui :", "l1": "Portent atteinte aux droits d'auteur, brevets, marques de commerce ou autres droits de propriété d'un tiers.", "l2": "Sont illégaux, haineux, obscènes ou diffamatoires.", "l3": "Contiennent des virus logiciels ou tout autre code informatique conçu pour interrompre, détruire ou limiter la fonctionnalité de tout logiciel ou matériel informatique." },
+    "s4": { "title": "4. Exclusion de garanties", "p1": "Notre service est fourni \"tel quel\" et \"selon la disponibilité\". PixelKit ne garantit pas que le service répondra à vos exigences, qu'il sera ininterrompu, opportun, sécurisé ou sans erreur. Tout contenu téléchargé ou obtenu d'une autre manière par l'utilisation du service est fait à votre propre discrétion et à vos propres risques." },
+    "s5": { "title": "5. Limitation de responsabilité", "p1": "En aucun cas, PixelKit ne pourra être tenu responsable des dommages directs, indirects, accessoires, spéciaux ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser le service." },
+    "s6": { "title": "6. Modifications des conditions", "p1": "Nous nous réservons le droit de modifier ou de remplacer ces conditions d'utilisation à tout moment. Il est de votre responsabilité de vérifier périodiquement cette page pour les changements." }
+  },
+  "contact": {
+    "seo": {
+        "title": "Contactez-nous | PixelKit",
+        "description": "Contactez l'équipe de PixelKit pour obtenir de l'aide, des commentaires ou des demandes de renseignements.",
+        "keywords": "contacter pixelkit, support, commentaires, aide, nous contacter"
+    },
+    "hero": {
+        "title": "Contactez-nous",
+        "subtitle": "Vous avez une question ou un commentaire ? Nous serions ravis de vous entendre."
+    },
+    "form": {
+        "name": "Nom",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Envoyer le message",
+        "submitting": "Envoi en cours...",
+        "error": {
+          "message": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard."
+        }
+    },
+    "success": {
+        "title": "Message envoyé !",
+        "subtitle": "Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.",
+        "message": "Votre message a été envoyé avec succès. Nous vous remercions de nous avoir contactés."
+    }
+  }
+}
+    
