@@ -22,7 +22,7 @@ const AnalyticsTracker: React.FC = () => {
             // =====================================================================
             // ACTION REQUIRED: Replace with your actual Google Analytics ID.
             // =====================================================================
-            const measurementId = 'YOUR_GOOGLE_ANALYTICS_ID'; 
+            const measurementId = 'G-8Z2CZM892J'; 
 
             // Send a page_view event every time the location changes
             window.gtag('config', measurementId, {
