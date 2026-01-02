@@ -1,7 +1,4 @@
 
-# See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
-# ACTION REQUIRED: Replace "https://www.example.com" with your website's actual domain.
-
 User-agent: *
 Allow: /
-Sitemap: https://www.example.com/sitemap.xml
+Sitemap: https://pixel-kit-free.vercel.app/sitemap.xml
