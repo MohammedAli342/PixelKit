@@ -202,9 +202,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     async function handleConvert() {
         if (originalUrls.length === 0) return;
-        isLoading = true;
+        setIsLoading(true);
         error = null;
         render();
+
+        // Artificial delay to show loading process
+        await new Promise(resolve => setTimeout(resolve, 2000));
 
         const conversionPromises = originalUrls.map(url => {
             return new Promise((resolve, reject) => {

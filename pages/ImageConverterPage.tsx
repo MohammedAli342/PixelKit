@@ -68,6 +68,9 @@ const ImageConverterPage: React.FC = () => {
     
     outputUrls.forEach(URL.revokeObjectURL);
 
+    // Artificial delay to show loading process
+    await new Promise(resolve => setTimeout(resolve, 2000));
+
     const conversionPromises = originalUrls.map(url => {
       return new Promise<string>((resolve, reject) => {
           const img = new Image();
